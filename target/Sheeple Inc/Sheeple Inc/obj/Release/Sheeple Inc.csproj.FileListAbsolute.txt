@@ -1,0 +1,9 @@
+C:\Projects\Golang\DLLinjector\target\Sheeple Inc\Sheeple Inc\bin\Release\Sheeple Inc.exe.config
+C:\Projects\Golang\DLLinjector\target\Sheeple Inc\Sheeple Inc\bin\Release\Sheeple Inc.exe
+C:\Projects\Golang\DLLinjector\target\Sheeple Inc\Sheeple Inc\bin\Release\Sheeple Inc.pdb
+C:\Projects\Golang\DLLinjector\target\Sheeple Inc\Sheeple Inc\obj\Release\Sheeple_Inc.Main.resources
+C:\Projects\Golang\DLLinjector\target\Sheeple Inc\Sheeple Inc\obj\Release\Sheeple_Inc.Properties.Resources.resources
+C:\Projects\Golang\DLLinjector\target\Sheeple Inc\Sheeple Inc\obj\Release\Sheeple Inc.csproj.GenerateResource.cache
+C:\Projects\Golang\DLLinjector\target\Sheeple Inc\Sheeple Inc\obj\Release\Sheeple Inc.csproj.CoreCompileInputs.cache
+C:\Projects\Golang\DLLinjector\target\Sheeple Inc\Sheeple Inc\obj\Release\Sheeple Inc.exe
+C:\Projects\Golang\DLLinjector\target\Sheeple Inc\Sheeple Inc\obj\Release\Sheeple Inc.pdb
