@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"Ysera/src/win32"
+	"ProcessInjector/src/win32"
 
 	"golang.org/x/sys/windows"
 )

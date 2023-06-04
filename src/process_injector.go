@@ -1,7 +1,11 @@
 package main
 
+/*
+	Shout out to @https://github.com/AllenDang he has some bangers.
+	I couldn't get his w32 library to work, but I grabbed what I needed from it.
+*/
 import (
-	"Ysera/src/proc"
+	"ProcessInjector/src/proc"
 	"errors"
 	"fmt"
 	"os"
@@ -38,7 +42,7 @@ var (
 
 func main() {
 	// Gets processid returns a unint32
-	a, err := proc.ProcessID("Sheeple Inc.exe")
+	a, err := proc.ProcessID(os.Args[1])
 	if err != nil {
 		println(err)
 	}
@@ -52,10 +56,9 @@ func main() {
 	if err != nil {
 		println(err)
 	}
-	// finds a process in the list by name
 
-	InjectDLL(uint32(proc.FindProcessByName(list, "Sheeple Inc.exe")), "C:\\Projects\\Code\\DLLinjector\\resources\\hello-world-x64.dll")
-	fmt.Println("Ysera dreams!")
+	// finds a process in the list by name and injects code
+	InjectDLL(uint32(proc.FindProcessByName(list, os.Args[1])), os.Args[2])
 }
 
 /*

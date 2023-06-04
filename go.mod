@@ -1,5 +1,5 @@
-module Ysera
+module ProcessInjector
 
-go 1.18
+go 1.19
 
-require golang.org/x/sys v0.0.0-20220405052023-b1e9470b6e64
+require golang.org/x/sys v0.8.0
